@@ -1,0 +1,16 @@
+POST http://localhost:4000/signup
+Content-Type: application/json
+
+{
+ "email": "N@n.com",
+ "password": "1234",
+ "confirmPassword": "1234",
+ "address": {
+  "state": "CA"
+ },
+ "DOB": "2013-02-02",
+ "referred": false,
+ "hobbies": ["fd"],
+ "acceptTos": "yes"
+}
+
